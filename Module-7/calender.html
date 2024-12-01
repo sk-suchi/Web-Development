@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <style>
+    h1{
+        text-align: center;
+        color: black;
+        font-size: 40px;
+    }
+    h2{
+        word-spacing:150px;
+        margin-left: 50px;
+    }
     .calender ul{
         display:grid;
         grid-template-columns: repeat(7,1fr);
@@ -20,8 +29,13 @@
         height: 100px;
         background-color: aquamarine;
     }
+    .calender li.holiday{
+        background-color: salmon;
+    }
 </style>
 <body>
+    <h1>January</h1>
+    <h2> Sun Mon Tue Wed Thu Fri Sat</h2>
     <div class="calender">
        <ul>
         <li>1</li>
@@ -29,29 +43,29 @@
         <li>3</li>
         <li>4</li>
         <li>5</li>
-        <li>6</li>
-        <li>7</li>
+        <li class="holiday">6</li>
+        <li class="holiday">7</li>
         <li>8</li>
         <li>9</li>
         <li>10</li>
         <li>11</li>
         <li>12</li>
-        <li>13</li>
-        <li>14</li>
+        <li class="holiday">13</li>
+        <li class="holiday">14</li>
         <li>15</li>
         <li>16</li>
         <li>17</li>
         <li>18</li>
         <li>19</li>
-        <li>20</li>
-        <li>21</li>
+        <li class="holiday">20</li>
+        <li class="holiday">21</li>
         <li>22</li>
         <li>23</li>
         <li>24</li>
         <li>25</li>
         <li>26</li>
-        <li>27</li>
-        <li>28</li>
+        <li class="holiday">27</li>
+        <li class="holiday">28</li>
         <li>29</li>
         <li>30</li>
         <li>31</li>
