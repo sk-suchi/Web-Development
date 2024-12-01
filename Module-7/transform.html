@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .box{
+           height: 200px;
+           width: 200px;
+           border: 2px solid rgb(78, 172, 201); 
+           
+        }
+        .outer{
+            background-color: rgb(5, 59, 59);
+            display:flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .inner{
+            background-color: indianred;
+            transform: rotate(45deg) scale(.5);
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Transform</h1>
+    <div class="box outer">  <!.box.outer*3 greater than sign.box.inner>
+        <div class="box inner">box1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box3</div>
+    </div>
+</body>
+</html>
